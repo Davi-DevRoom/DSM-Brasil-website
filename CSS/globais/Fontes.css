@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Overpass:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --font-title: 'Overpass', sans-serif;
+    --font-text: 'Nunito', sans-serif;
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    --weight-extrabold: 800;  
+}

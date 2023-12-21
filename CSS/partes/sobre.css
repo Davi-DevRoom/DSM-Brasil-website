@@ -1,0 +1,37 @@
+.Sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.sobre-nos{
+    width: 27.5rem;
+}
+.sobre-nos h2{
+    font-size: 3rem;
+    font-weight: var(--weight-bold);
+    white-space: nowrap;
+    line-height: 0.5;
+    color: var(--cl-p-01);
+}
+
+
+.sobre-nos p{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: var(--weight-medium);
+    white-space: wrap;
+    line-height: 1.5;
+    color: var(--cl-p-01);
+}
+
+.sobre-nos p span{
+    color: #3F6B1B;
+}
+
+.image-sobre{
+    background: var(--cl-p-08);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
