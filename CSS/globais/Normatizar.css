@@ -46,6 +46,9 @@ ul, li{
 }
 
 .heading-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--cl-p-04);
     font-family: Overpass;
     text-transform: uppercase;
@@ -57,7 +60,7 @@ ul, li{
 }
 
 section{
-    padding: 7.5rem 10rem;
+    padding: 7.5rem 8.75rem;
 }
 
 .btn-chamada{
@@ -69,4 +72,5 @@ section{
     background: var(--cl-blue-gradient);
     border: none;
     border-radius: 5px;
+    box-shadow: var(--shadow);
 }

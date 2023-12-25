@@ -1,0 +1,99 @@
+.contain-contato{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5rem;
+}
+
+.portfolio{
+    width: 32.125rem;
+}
+
+.portfolio h2{
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    font-weight: var(--weight-semibold);
+}
+
+.portfolio button{
+    margin-top: 3rem;
+}
+.portfolio button a{
+    color: var(--cl-p-08);
+}
+
+.separador-blue{
+    margin-top: 8px;
+    width: 12.5rem;
+    height: 4px;
+    border-radius: 5px;
+    background: var(--cl-blue-gradient);
+}
+
+.portfolio p{
+    width: 25.75rem;
+    margin-top: 2rem;
+    font-family: var(--font-text);
+    font-size: 1.25rem;
+}
+
+.port-bloco{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.port-bloco i{
+    position: relative;
+    top: 15px;
+}
+
+.uis{
+    font-size: 2rem;
+    color: var(--cl-s-02);
+}
+
+.port-bloco p{
+    font-size: 1rem;
+    font-weight: var(--weight-regular);
+    width: 22.31rem;
+    margin-left: 0.5rem;
+}
+
+.separador{
+    margin-top: 15px;
+    margin-bottom: -15px;
+    width: 23rem;
+    height: 4px;
+    border-radius: 5px;
+    background: var(--cl-p-06);
+}
+
+
+.endereco{
+    margin-top: -2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereco iframe{
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.verde{
+    margin-top: 2rem;
+    background: var(--cl-green-gradient);
+}
+
+.verde a{
+    color: var(--cl-p-08);
+}
+
+.endereco p{
+    margin-top: 2rem;
+    text-align: center;
+}
