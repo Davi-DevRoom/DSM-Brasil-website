@@ -4,7 +4,7 @@
     justify-content: space-between;
     background: var(--cl-p-08);
     height: 5rem;
-    border-bottom: 4px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--shadow);
 }
 
 .header img{
@@ -27,8 +27,33 @@
 .nav-list li a{
     font-family: var(--font-title);
     color: var(--cl-p-01);
+    position: relative;
+    text-decoration: none;  
+}
+
+.nav-list li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--cl-s-02);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-list li a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    border-radius: 5px;
 }
 
 .nav-list li a:hover{
     color: var(--cl-s-02);
 }
+

@@ -17,14 +17,11 @@
     height: 10rem;
     background: #F0F0F0;
     box-shadow: var(--shadow);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 10px;
 }
 
 .container-parceiros .color-black{
-    background: var(--cl-p-02);
+    background: var(--cl-p-03);
 }
 
 .container-parceiros .parceiros img{

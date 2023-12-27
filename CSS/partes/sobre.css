@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 9rem;
+    gap: 10rem;
 }
 
 .sobre-nos{
     width: 27.5rem;
 }
+
 .sobre-nos h2{
     font-size: 3rem;
     font-weight: var(--weight-bold);
@@ -15,7 +16,6 @@
     line-height: 0.5;
     color: var(--cl-p-01);
 }
-
 
 .sobre-nos p{
     margin-top: 2rem;
@@ -34,4 +34,8 @@
     background: var(--cl-p-08);
     box-shadow: var(--shadow);
     border-radius: 10px;
+}
+
+.image-sobre img{
+    width: 30rem;
 }
