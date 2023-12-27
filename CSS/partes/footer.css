@@ -1,0 +1,91 @@
+.footer{
+    background: var(--cl-p-06);
+    margin-top: 2.5rem;
+    width: 100vw;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .p-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer .box-container .box .img-footer{
+    width: 25rem;
+    margin-bottom: -5rem;
+}
+
+.footer .box-container .box{
+    font-size: 1.5rem;
+    color: var(--cl-p-02);
+    padding: 0;
+}
+
+.footer .box-container .p-top2{
+    padding-top: 5rem;
+}
+
+.footer .box-container .box h3{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: var(--font-title);
+}
+
+.footer .box-container .box p{
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--cl-p-03);
+}
+
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1.25rem;
+    font-family: var(--font-text);
+    color: var(--cl-p-08);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links{
+    color: var(--cl-p-02);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .days{
+    margin-left: 2.2rem;
+    line-height: .2;
+}
+
+.separador{
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: 4px;
+    border-radius: 5px;
+    background: var(--cl-p-05);
+    margin-top: 2.5rem;
+}
+
+.referencia{
+    display: flex;
+    width: 100vw;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.referencia a{
+    font-size: 1rem;
+    color: var(--cl-p-01);
+}

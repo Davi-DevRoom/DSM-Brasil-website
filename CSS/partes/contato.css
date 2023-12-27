@@ -16,9 +16,11 @@
     font-weight: var(--weight-semibold);
 }
 
-.portfolio button{
+.portfolio a{
+    display: inline-block;
     margin-top: 3rem;
 }
+
 .portfolio button a{
     color: var(--cl-p-08);
 }
