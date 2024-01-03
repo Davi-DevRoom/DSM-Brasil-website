@@ -8,3 +8,6 @@ Este meu cliente pediu para criar uma landing page para o negócio dele, com o i
 [acesse](https://davi-log.github.io/DSM-Brasil-website/)
 
 Para o projeto eu utilizo ferramentas de IU Design e de Programação, como: Figma, JavaScript, HTML e CSS.
+
+
+feito para cliente
