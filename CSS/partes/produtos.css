@@ -1,3 +1,40 @@
 .Produtos{
     background: var(--cl-p-08);
 }
+
+.carrossel{
+    width: 100vw;
+    display: flex;
+}
+
+.carrossel input{
+    display: none;
+}
+
+.bloc-box{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.prod-descript{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-descript h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.p-descript{
+    margin-top: 2rem;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    width: 25rem;
+}
