@@ -1,82 +1,63 @@
+
 .footer{
-    background: var(--cl-p-08);
-    margin-top: 2.5rem;
-    width: 100vw;
+background: var(--cl-p-08);
+padding: 3rem 7%;
 }
 
 .footer .box-container{
-    display: flex;
-    justify-content: space-around;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+gap: 1.5rem;
+padding-left: 2rem;
 }
 
-.footer .box-container .box .img-footer{
-    margin-top: -5rem;
+.footer .box-container img{
     width: 15rem;
 }
 
-.box-container .center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.box-container .center a{
-    margin-bottom: -3rem;
-}
-
-.box-container .center i{
-    color: var(--cl-s-02);
-    font-size: 1rem;
-}
-
-.footer .box-container .menu-footer{
-    margin-top: 3rem;
-    font-size: 1.5rem;
-    color: var(--cl-p-02);
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.footer .box-container .menu-footer a{
-    color: var(--cl-p-04);
-    font-family: var(--font-title);
-    font-size: 1.25rem;
-    text-decoration: underline;
-}
-
-.footer .box-container .box{
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
-    gap: 0.5rem;
-}
-
 .footer .box-container .box h3{
-    color: var(--cl-p-04);
-    font-family: var(--font-title);
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    position: relative;
+font-size: 2.5rem;
+color: var(--cl-p-01);
+padding: 1rem 0;
 }
 
-.footer .box-container .box h3:before{
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    border-radius: 5px;
-    background-color: var(--cl-p-04);
+.footer .box-container .box p{
+font-size: 1.5rem;
+line-height: 1.8;
+color: var(--cl-p-01);
+padding: 1rem 0;
 }
 
+.footer .box-container .box .links{
+display: block;
+font-size: 1.5rem;
+color: var(--cl-p-01);
+padding: 1rem 0;
+}
 
-.footer .box-container .box a{
-    color: var(--cl-p-04);
-    font-family: var(--font-text);
-    font-size: 1.25rem;
+.footer .box-container .box .links i{
+color: var(--cl-s-02);
+padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
+padding-right: 2rem;
+}
+
+.footer .box-container .box .days{
+margin-left: 2.2rem;
+line-height: .2;
+}
+
+.footer .box-container .box .email{
+width: 100%;
+margin: .7rem 0;
+padding: 1rem;
+border-radius: .5rem;
+background: var(--white);
+font-size: 1.6rem;
+color: var(--black);
+text-transform: none;
 }
 
 .separador-footer{
@@ -90,6 +71,8 @@
 }
 
 .referencia{
+    margin-top: -5rem;
+    background: var(--cl-p-08);
     font-family: var(--font-title);
     display: flex;
     width: 100vw;

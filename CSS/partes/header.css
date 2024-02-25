@@ -56,3 +56,17 @@
 .nav-list li a:hover{
     color: var(--cl-s-02);
 }
+
+
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+}
+
+@media (max-width: 450px){
+    .Sobre{
+        padding: 2rem 4rem;
+    
+    }
+}
