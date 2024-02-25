@@ -1,5 +1,8 @@
 .Home{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
     gap: 10rem;
@@ -39,4 +42,54 @@
     height: 26.25rem;
     border-radius: 15px;
     box-shadow: var(--shadow);
+}
+
+@media(max-width: 991px){
+    .Introducao{
+        width: 500px;
+    }
+
+    .Home{
+        margin-top: -5rem;
+        margin-bottom: 10rem ;
+        gap: 5rem;
+    } 
+
+    .image-home{
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    .Home{
+        margin-bottom: 25rem ;
+        gap: 5rem;
+    } 
+
+    .image-home{
+        width: 300px;
+    }
+   
+}
+
+@media (max-width: 450px){
+    .Home{
+        padding: 8rem 4rem;
+        margin-bottom: 20rem;
+        gap: 5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    } 
+
+    .Introducao{
+        width: 40rem;
+        flex-wrap: wrap;
+    }
+
+    .image-home{
+        width: 200px;
+    }
 }

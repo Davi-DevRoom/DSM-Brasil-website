@@ -39,3 +39,23 @@
 .image-sobre img{
     width: 30rem;
 }
+
+@media(max-width: 991px){
+    .Sobre{
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .Sobre{
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 450px){
+    .Sobre{
+        padding: 2rem 4rem;
+    
+    }
+}

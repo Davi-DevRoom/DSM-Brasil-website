@@ -93,3 +93,24 @@
     margin-top: 2.75rem;
     text-align: center;
 }
+
+@media(max-width: 991px){
+
+    .endereco iframe{
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px){
+    .contain-contato{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 450px){
+    .Sobre{
+        padding: 2rem 4rem;
+    
+    }
+}
