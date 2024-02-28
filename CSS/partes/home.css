@@ -75,7 +75,7 @@
 @media (max-width: 450px){
     .Home{
         padding: 8rem 4rem;
-        margin-bottom: 20rem;
+        margin-bottom: 2rem;
         gap: 5rem;
 
         display: flex;
@@ -90,6 +90,6 @@
     }
 
     .image-home{
-        width: 200px;
+        width: 250px;
     }
 }

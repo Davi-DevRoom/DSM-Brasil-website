@@ -55,7 +55,6 @@
 
 @media (max-width: 450px){
     .Sobre{
-        padding: 2rem 4rem;
-    
+     margin-top: 1rem;
     }
 }
