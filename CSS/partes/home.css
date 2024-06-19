@@ -1,10 +1,10 @@
 .Home{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    
+    flex-wrap: nowrap;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     gap: 10rem;
 }
 
@@ -51,7 +51,7 @@
 
     .Home{
         margin-top: -5rem;
-        margin-bottom: 10rem ;
+        margin-bottom: -10rem;
         gap: 5rem;
     } 
 
@@ -62,7 +62,7 @@
 
 @media (max-width: 768px){
     .Home{
-        margin-bottom: 25rem ;
+        flex-wrap: wrap;
         gap: 5rem;
     } 
 
@@ -77,11 +77,9 @@
         padding: 8rem 4rem;
         margin-bottom: 2rem;
         gap: 5rem;
-
         display: flex;
         align-items: center;
         justify-content: center;
-
     } 
 
     .Introducao{
