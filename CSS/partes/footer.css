@@ -12,11 +12,12 @@ padding-left: 1rem;
 }
 
 .footer .box-container img{
-    width: 15rem;
+    margin-left: -4rem;
+    width: 100%;
 }
 
 .footer .box-container .box h3{
-font-size: 2.5rem;
+font-size: 2rem;
 color: var(--cl-p-01);
 font-family: var(--font-title);
 font-weight: 700;

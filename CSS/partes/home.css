@@ -37,9 +37,13 @@
     margin-top: 2.5rem;
 }
 
+.image-home{
+    width: 350px;
+}
+
 .image-home img{
     width: 100%;
-    height: 26.25rem;
+    height: 520px;
     border-radius: 15px;
     box-shadow: var(--shadow);
 }

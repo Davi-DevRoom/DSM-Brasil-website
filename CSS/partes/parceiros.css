@@ -20,9 +20,6 @@
     border-radius: 10px;
 }
 
-.container-parceiros .color-black{
-    background: var(--cl-p-03);
-}
 
 .container-parceiros .parceiros img{
     width: 18.75rem;
