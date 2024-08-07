@@ -1,45 +1,113 @@
 .Produtos{
-    background: var(--cl-p-08);
+    margin-bottom: -10rem;
 }
 
 .slider{
-    width: 100%;
+    margin: 0;
+    width: 100vw;
     height: 100%;
     overflow: hidden;
 }
 
-.carrossel{
-    width: 500%;
+.slides{
+    width: 400%;
+    height: auto;
     display: flex;
 }
 
-.carrossel input{
+.slides input{
     display: none;
 }
 
-.bloc-box{
-    width: 87vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.slide{
+    width: 25%;
+    margin-top: 4rem;
+    height: auto;
+    position: relative;
+    overflow: hidden;
 }
 
-.prod-descript{
+.b-flex{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    overflow: hidden;
+}
+
+.descri-produto{
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+.descri-produto h2{
+    font-family: var(--font-title);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(--cl-p-03);
+}
+
+.descri-produto .subtitulo-prod{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: var(--cl-s-02);
+}
+
+.descricao-prod{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    color: #463e3e;
+}
+
+.descri-produto .btn-prod{
+    font-family: var(--font-text);
+    font-weight: var(--weight-extrabold);
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    color: var(--cl-p-08);
+    background: var(--cl-blue-gradient);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    margin-top: -5rem;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.prev,
+.next{
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 35%;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.prod-descript h3{
-    text-transform: uppercase;
-    font-size: 2rem;
+.prev{
+    left: 10%;
+    width: 25px;
+    height: 25px;
 }
 
-.p-descript{
-    margin-top: 2rem;
-    display: flex;
-    align-items: start;
-    gap: 1rem;
-    width: 25rem;
+.next{
+    right: 25%;
+    width: 25px;
+    height: 25px;
 }

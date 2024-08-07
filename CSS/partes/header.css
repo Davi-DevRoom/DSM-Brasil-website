@@ -81,13 +81,14 @@
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: var(--cl-p-08);
+        background: #ffffff72;
         backdrop-filter: blur(3px);
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: start;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        z-index: 1;
     }
 
     .nav-list li{
