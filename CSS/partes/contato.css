@@ -111,6 +111,13 @@
 @media (max-width: 450px){
     .Sobre{
         padding: 2rem 4rem;
-    
+    }
+
+    .separador{
+        height: 2px;
+    }
+
+    .port-bloco p{
+        font-size: 1.2rem;
     }
 }
