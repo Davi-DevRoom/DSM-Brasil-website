@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--cl-blue-gradient);
+    border-radius: 0.5rem;
+}
+
+body{
+    overflow-x: hidden;
+    background: var(--cl-p-07);
+}
+
+h1, h2, h3{
+    font-family: var(--font-title);
+}
+
+p{
+    font-family: var(--font-text);
+}
+
+ul, li{
+    list-style: none;
+}
+
+.heading-title{
+    text-align: center;
+    color: var(--cl-p-04);
+    font-family: Overpass;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25rem;
+}
+
+section{
+    padding: 7.5rem 8.75rem;
+}
+
+.btn-chamada{
+    font-family: var(--font-text);
+    font-weight: var(--weight-extrabold);
+    text-transform: uppercase;
+    padding: 1.5rem 3.75rem;
+    color: var(--cl-p-08);
+    background: var(--cl-blue-gradient);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+@media(max-width: 991px){
+    html{
+        font-size: 70%;
+      }
+
+      section{
+        padding: 7rem 4rem;
+      }
+}
+
+@media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .header .navbar a{
+      display: block;
+      margin: 2rem;
+      font-size: 2rem;
+    }
+  
+    .Home .Introducao-home h1{
+      font-size: 5rem;
+    }
+
+}
+
+@media (max-width: 450px){
+    html{
+      font-size: 55%;
+    }
+}

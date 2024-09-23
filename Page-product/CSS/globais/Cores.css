@@ -1,0 +1,18 @@
+:root{
+    --cl-p-01: #000;
+    --cl-p-02: #111;
+    --cl-p-03: #2e2e2e;
+    --cl-p-04: #404040;
+    --cl-p-05: #9c9c9c;
+    --cl-p-06: #b2b2b2;
+    --cl-p-07: #f5f5f5;
+    --cl-p-08: #fff;
+
+    --cl-s-01: #084caa;
+    --cl-s-02: #007bff;
+    --cl-blue-gradient: linear-gradient(180deg, #007BFF 0%, #005AA9 164.71%);
+
+    --cl-green-gradient: linear-gradient(180deg, #51CF5E 0%, #00A010 100%);
+
+    --shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+}
